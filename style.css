@@ -81,8 +81,8 @@ input:focus {
 .user-input a:hover {
   text-decoration: underline;
 }
-.user-input button:hover {
-  background-color: black;
+#login:hover {
+  background-color: #0254d8;
 }
 #create-account {
   border: none;
@@ -94,6 +94,10 @@ input:focus {
   color: #fff;
   font-weight: 700;
   cursor: pointer;
+  transition: all 0.24s;
+}
+#create-account:hover {
+  background-color: #359622;
 }
 .other-btn {
   display: flex;
