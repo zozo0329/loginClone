@@ -1,0 +1,126 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+main {
+  background: #f2f4f7;
+}
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 96px;
+  gap: 60px;
+}
+.logo-section img {
+  height: 106px;
+  margin: -28px;
+  border: 0px;
+}
+.logo-section h2 {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+}
+
+/* input section */
+.input-section {
+  display: flex;
+  flex-direction: column;
+}
+.input-container {
+  padding: 20p;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  width: 396px;
+}
+.user-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.user-input input {
+  width: 330px;
+  font-size: 17px;
+  padding: 14px 0px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  padding: 16px;
+}
+textarea:focus,
+input:focus {
+  outline: 1px solid #0866ff;
+}
+.user-input #login {
+  cursor: pointer;
+  background-color: #0866ff;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0px 20px;
+  width: 332px;
+  color: white;
+  font-weight: 700;
+  transition: all 0.24s;
+}
+.user-input a {
+  text-decoration: none;
+  color: #0866ff;
+}
+.user-input a:hover {
+  text-decoration: underline;
+}
+.user-input button:hover {
+  background-color: black;
+}
+#create-account {
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  background-color: #3dad27;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.other-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.other-btn button:hover {
+  background-color: black;
+}
+.create-page {
+  text-align: center;
+}
+.create-page a {
+  font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+.create-page p {
+  color: #1c1e21;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+.create-page a:hover {
+  text-decoration: underline;
+}
