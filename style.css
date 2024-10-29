@@ -2,6 +2,13 @@ body {
   padding: 0px;
   margin: 0px;
 }
+.cat img {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+}
 main {
   background: #f2f4f7;
 }
@@ -72,7 +79,6 @@ input:focus {
   width: 332px;
   color: white;
   font-weight: 700;
-  transition: all 0.24s;
 }
 .user-input a {
   text-decoration: none;
@@ -127,4 +133,46 @@ input:focus {
 }
 .create-page a:hover {
   text-decoration: underline;
+}
+/* CLONE BUTTONS */
+.clone-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
+.clone-buttons button {
+  cursor: pointer;
+  background-color: #0866ff;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0px 20px;
+  width: 332px;
+  color: white;
+  font-weight: 700;
+}
+.clone-buttons button:hover {
+  background-color: #0254d8;
+}
+#cloneOne {
+  visibility: hidden;
+}
+#cloneTwo {
+  visibility: hidden;
+}
+#cloneThree {
+  visibility: hidden;
+}
+@media (max-width: 1000px) {
+  .content-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .clone-buttons {
+    justify-content: center;
+    align-items: center;
+  }
 }
